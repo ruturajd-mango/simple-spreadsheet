@@ -17,9 +17,9 @@ Gem::Specification.new do |gem|
   gem.version       = SimpleSpreadsheet::VERSION
 
   # specify any dependencies here; for example:
-  gem.add_development_dependency "bundler", "~> 1.10"
+  gem.add_development_dependency "bundler", "~> 2.6.4"
   gem.add_development_dependency "rake", "~> 10.1"
   gem.add_development_dependency "rspec","~> 3.3"
-  gem.add_runtime_dependency "roo", "~> 2.4"
-  gem.add_runtime_dependency "roo-xls", "~> 1.0"
+  gem.add_runtime_dependency "roo", "~> 2.10.0"
+  gem.add_runtime_dependency "roo-xls", "~> 1.2.0"
 end
